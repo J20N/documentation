@@ -1,4 +1,6 @@
-# Fixtures
+Fixtures
+========
+
 La base de données `fixtures` est une base commune, généralement utilisée pour les tests fonctionnels.
 
 Si, pour une raison qui est propre à votre test fonctionnel, une entrée à besoin d'être ajoutée, il faudra mettre à jour celle-ci sur la branche `develop`.
