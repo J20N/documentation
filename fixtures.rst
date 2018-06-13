@@ -7,21 +7,24 @@ Si, pour une raison qui est propre à votre test fonctionnel, une entrée à bes
 
 Voici les étapes à suivre:
 
-Récupérez la dernière version de ``develop``:
+Récupérez la dernière version de ``develop``
+::
     $ git checkout develop
     $ git pull
 
-Depuis un docker, utilisez l'exécuteur de commande:
+Depuis un docker, utilisez l'exécuteur de commande
+::
     $ sudo mysql
     $ > drop database fixtures
     $ ./cli.sh Database patchAll # Met à jour la base de données
     $ ./cli.sh Fixtures load # Charge la base fixtures
 
-Effectuez vos modifications.
-
+Effectuez vos modifications
+::
     $ ./cli.sh Fixtures dump
 
 Revenez sur votre instance Git
+::
     $ git status # liste des fichiers modifiés
     $ git add "fichier-schema.sql" "fichier.sql" "..." # Ajoute les fichiers à envoyer
     $ git checkout "fichier_a_ne_pas_envoyer.sql" "..." # Supprime les fichiers non utiles
@@ -32,6 +35,7 @@ Revenez sur votre instance Git
     $ git rebase develop # On va récupérer votre modification de la DB fixtures
 
 Revenez sur Docker, et relancer les commandes
+::
     $ sudo mysql
     $ > drop database fixtures
     $ ./cli.sh Database patchAll # Met à jour la base de données
