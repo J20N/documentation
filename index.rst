@@ -21,3 +21,4 @@ Table of contents
     lexique
     fixtures
     exemples
+    comalia
