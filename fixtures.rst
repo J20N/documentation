@@ -23,6 +23,9 @@ Effectuez vos modifications
 ::
     $ ./cli.sh Fixtures dump
 
+
+
+
 Revenez sur votre instance Git
 ::
     $ git status # liste des fichiers modifiés
