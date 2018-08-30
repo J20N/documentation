@@ -21,3 +21,4 @@ Table of contents
     fixtures
     exemples
     comalia
+    ta
