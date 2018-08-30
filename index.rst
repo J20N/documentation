@@ -5,7 +5,6 @@ Voici un exemple de documentation générée par  `Read the Docs <https://readth
 
 L'url de la doc en ligne `F13Z Doc <https://f13z-documentation.readthedocs.io>`_.
 
-
 Un peu d'aide sur l'utilisation
 ###############################
 
